@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_HW1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HW1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        
+        <TabPanel Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Width="90" Height="40" Margin="2" Foreground="Navy" Content="Navy" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Blue" Content="Blue" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Aqua" Content="Aqua" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Teal" Content="Teal" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Olive" Content="Olive" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+
+            <Button Width="90" Height="40" Margin="2" Foreground="Green" Content="Green" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Lime" Content="Lime" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Yellow" Content="Yellow" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Orange" Content="Orange" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Red" Content="Red" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+
+            <Button Width="90" Height="40" Margin="2" Foreground="Maroon" Content="Maroon" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Fuchsia" Content="Fuchsia" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Purple" Content="Purple" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Black" Content="Black" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="Silver" Content="Silver" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+
+            <Button Width="90" Height="40" Margin="2" Foreground="Gray" Content="Gray" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+            <Button Width="90" Height="40" Margin="2" Foreground="White" Content="White" FontSize="18" FontWeight="Bold" BorderThickness="0" Background="DarkKhaki"/>
+
+            <!--
+            Navy, Blue, Aqua, Teal, Olive, 
+            Green, Lime, Yellow, Orange, Red, 
+            Maroon, Fuchsia, Purple, Black, Silver,
+            Gray, White
+            -->
+        </TabPanel>
+    </Grid>
+</Window>
